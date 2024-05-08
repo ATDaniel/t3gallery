@@ -1,6 +1,7 @@
 // import { db } from "@vercel/postgres";
 
 import { db } from "~/server/db";
+export const dynamic = "force-dynamic";
 
 const mockUrls = [
   "https://utfs.io/f/8b77296a-1760-497f-9aeb-cd03ba7b7bc3-f0g7u7.jpg",
